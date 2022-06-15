@@ -24,6 +24,11 @@ const navList = [
     to: "/mission",
     title: "MISSION",
   },
+  {
+    id: "05",
+    to: "/admin",
+    title: "Admin",
+  },
 ];
 
 const crews = [

@@ -6,6 +6,7 @@ import Destination from "./NewPAge/Destination";
 import Crew from "./NewPAge/CrewPage";
 import Technology from "./NewPAge/TechnologyPage";
 import Mission from "./NewPAge/Mission";
+import Admin from "./NewPAge/Admin";
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
 
           <Route path="/mission">
             <Route index element={<Mission />} />
+          </Route>
+          <Route path="/admin">
+            <Route index element={<Admin />} />
           </Route>
         </Routes>
       </div>
